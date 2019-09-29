@@ -7,10 +7,11 @@ import android.os.RecoverySystem
 import android.util.Log
 import java.io.File
 
+const val TAG = "UpdateReceiver"
+const val RECOVERY_ACTION ="com.luoye.updater.action.ACTION_ROM_UPDATE"
+const val PACKAGE_PATH = "package_path"
+
 class UpdateReceiver : BroadcastReceiver(){
-    var TAG = "UpdateReceiver"
-    var RECOVERY_ACTION ="com.luoye.updater.action.ROM_UPDATE_ACTION"
-    var  PACKAGE_PATH = "package_path"
     override fun onReceive(context: Context?, intent: Intent?) {
         Log.d(TAG,"Receive broadcast!")
         if(intent?.action == RECOVERY_ACTION){

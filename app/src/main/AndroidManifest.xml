@@ -25,7 +25,7 @@
         </activity>
         <receiver android:name=".UpdateReceiver">
             <intent-filter>
-                <action android:name="com.luoye.updater.action.ROM_UPDATE_ACTION"/>
+                <action android:name="com.luoye.updater.action.ACTION_ROM_UPDATE"/>
             </intent-filter>
         </receiver>
     </application>
