@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Updater</string>
-    <string name="tips">adb shell am broadcast -a com.luoye.updater.action.ROM_UPDATE_ACTION  &#45;&#45;es &quot;package_path&quot; &quot;/path/to/package.zip&quot;</string>
+    <string name="tips">Give me a broadcast!</string>
 </resources>
